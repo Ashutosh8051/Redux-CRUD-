@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
-import { FetchUserList,Removeuser} from "../Redux/Action";
+import { FetchUserList,RemoveUser} from "../Redux/Action";
 
 const Userlisting = (props) => {
     useEffect(() => {
@@ -71,7 +71,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
     return {
         loaduser: () => dispatch(FetchUserList()),
-        removeuser:(code)=>dispatch(Removeuser(code))
+        removeuser:(code)=>dispatch(RemoveUser(code))
     }
 }
 

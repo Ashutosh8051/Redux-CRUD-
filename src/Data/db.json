@@ -1,39 +1,25 @@
 {
   "user": [
     {
-      "id": 1,
-      "name": "Admin User",
-      "role": "admin",
-      "email": "admin@in.com",
-      "phone": "9876543210"
-    },
-    {
-      "id": 2,
-      "name": "Suresh",
-      "email": "sr@in.com",
-      "phone": "9876543210",
+      "id": "2",
+      "name": "Sureshasfdasdfasdf",
+      "email": "sr@in.comadf",
+      "phone": "9876543210asdf",
       "role": "staff"
     },
     {
-      "id": 3,
-      "name": "Ramesh",
-      "email": "ra.admin@in.com",
-      "phone": "9876543210",
-      "role": "admin"
-    },
-    {
+      "id": "4",
       "name": "Akilash",
       "email": "ak@in.com",
-      "phone": "789900",
-      "role": "staff",
-      "id": 4
+      "phone": "789900asfasdf",
+      "role": "staff"
     },
     {
-      "id": 5,
-      "name": "test",
-      "email": "test@gmail.com",
-      "phone": "900000222",
-      "role": "staff"
+      "id": "c8bb",
+      "name": "asd",
+      "email": "asdf",
+      "phone": "asdf",
+      "role": "admin"
     }
   ]
 }
